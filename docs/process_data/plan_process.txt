@@ -1,0 +1,36 @@
+Plan for Web Scraping Tool
+
+1.  Project Setup:
+    *   Choose a suitable Python library for web scraping. Given the relatively simple requirements and lack of need for interaction, `requests` and `BeautifulSoup4` seem adequate.
+    *   Create a new Python file (e.g., `scraper.py`) in the root directory to house the scraping logic.
+
+2.  CSV Handling:
+    *   Read the `imppat_ids.csv` file into a list of IDs.
+    *   For each ID, construct the URL to scrape.
+    *   After scraping each URL, update the original `imppat_ids.csv` with the scraping result (0 or 1)
+
+3.  Web Scraping Logic:
+    *   For each ID:
+        *   Construct the target URL: `https://cb.imsc.res.in/imppat/admetproperties/{ID}`
+        *   Use the `requests` library to fetch the HTML content of the page.
+        *   Use `BeautifulSoup4` to parse the HTML content.
+        *   Locate the ADMET properties table: Find the `div` element with `id="contact2"` and within it, find the `table` element with class `table table-bordered table-sm`.
+        *   Within this table, locate the row containing "Blood Brain Barrier permeation" and extract its corresponding value.
+        *   Similarly, locate the row containing "Gastrointestinal absorption" and extract its value.
+        *   Evaluate the conditions:
+            *   If "Blood Brain Barrier permeation" is "No" AND "Gastrointestinal absorption" is "Low", set the result to 0.
+            *   If "Blood Brain Barrier permeation" is "Yes" AND "Gastrointestinal absorption" is "High", set the result to 1.
+            *   Otherwise, determine a default value.
+        *   Add a 0.5-second delay using `time.sleep(0.5)` to respect the website.
+
+4.  Error Handling:
+    *   Implement `try-except` blocks to catch potential errors:
+        *   `requests.exceptions.RequestException`: Handle cases where the website is unreachable.
+        *   `AttributeError`: Handle cases where the expected HTML elements are not found (website structure changed).
+        *   In case of an error, print an informative message to the console, including the ID that caused the error, and stop the program.
+
+5.  CSV Output:
+    *   Open the `imppat_ids.csv` file in write mode (`'w'`).
+    *   Write the header "IMPPAT phytochemical identifier"
+    *   Write each id, replacing it with the result
+    *   Overwrite the original `imppat_ids.csv` file with the updated content.

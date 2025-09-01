@@ -1,0 +1,33 @@
+Project: Information Extraction from Website
+
+Objective: Extract "IMPPAT phytochemical identifier" data from a table on the website's search results page, based on specific search criteria. Save the data in a CSV file.
+
+Steps:
+
+1.  Website Access and Navigation:
+    *   Use the requests library to fetch the HTML content of the starting URL: https://cb.imsc.res.in/imppat/.
+    *   Navigate to the search page: https://cb.imsc.res.in/imppat/basicsearch/phytochemical.
+    *   Use the requests library to send a POST request to the search page with the following parameters:
+        *   Search field: "Indian medicinal plant"
+        *   Search for: "Camellia Sinensis"
+        *   Filter for: "leaf"
+2.  Data Extraction:
+    *   Use BeautifulSoup4 or lxml to parse the HTML content of the search results page.
+    *   Locate the HTML table containing the data.
+    *   Iterate through the table rows and extract the data from the "IMPPAT phytochemical identifier" column.
+3.  Data Storage:
+    *   Use the csv module to write the extracted data to a CSV file.
+    *   Define the header for the CSV file as "IMPPAT phytochemical identifier".
+    *   Write each extracted identifier as a row in the CSV file.
+4.  Error Handling:
+    *   Implement error handling to gracefully handle potential issues, such as:
+        *   Network errors (e.g., website unreachable).
+        *   HTML parsing errors.
+        *   Unexpected changes in the website structure.
+5.  Code Structure and Implementation:
+    *   Python script will be provided to perform the task.
+
+Next Steps:
+
+*   Create the python script.
+*   Save the .csv file in the project root directory.

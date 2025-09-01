@@ -1,0 +1,14 @@
+graph TD
+    A[Start] --> B(Fetch Homepage);
+    B --> C{Navigate to Search Page};
+    C --> D(POST Request with Search Parameters);
+    D --> E{Parse HTML};
+    E --> F(Locate Table);
+    F --> G{Iterate Rows & Extract Data};
+    G --> H(Store Data in CSV);
+    H --> I{Error Handling};
+    I --> J[End];
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#ccf,stroke:#333,stroke-width:2px
+    style G fill:#ccf,stroke:#333,stroke-width:2px

@@ -1,0 +1,54 @@
+flowchart TD
+    A[Start] --> B[Install requests and BeautifulSoup4]
+    B --> C[Create scraper.py file]
+    C --> D[Read imppat_ids.csv file]
+    D --> E[Load IDs into list]
+
+    E --> F[Start processing loop]
+    F --> G{More IDs to process?}
+
+    G -->|No| S[Write results to CSV]
+    G -->|Yes| H[Get next ID]
+
+    H --> I[Build target URL]
+    I --> J[Send HTTP request]
+
+    J --> K{Request successful?}
+    K -->|No| L[Handle request error]
+    L --> M[Print error and stop]
+
+    K -->|Yes| N[Parse HTML with BeautifulSoup]
+    N --> O[Find BBB element]
+    O --> P[Find GI element]
+
+    P --> Q{Elements found?}
+    Q -->|No| R[Handle parsing error]
+    R --> T[Print error and stop]
+
+    Q -->|Yes| U[Extract BBB value]
+    U --> V[Extract GI value]
+
+    V --> W{BBB No and GI Low?}
+    W -->|Yes| X[Set result to 0]
+
+    W -->|No| Y{BBB Yes and GI High?}
+    Y -->|Yes| Z[Set result to 1]
+    Y -->|No| AA[Set default value]
+
+    X --> BB[Wait 0.5 seconds]
+    Z --> BB
+    AA --> BB
+
+    BB --> CC[Store result]
+    CC --> G
+
+    S --> DD[Open CSV for writing]
+    DD --> EE[Write header]
+    EE --> FF[Write all results]
+    FF --> GG[Save file]
+    GG --> HH[End]
+
+    style A fill:#e3f2fd
+    style HH fill:#e8f5e8
+    style M fill:#ffebee
+    style T fill:#ffebee

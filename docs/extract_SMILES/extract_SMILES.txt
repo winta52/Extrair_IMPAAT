@@ -1,0 +1,37 @@
+Project Plan: Extracting Molecule Name and SMILES from IMPPAT Website
+
+1. Input Preparation
+   - Read the file Output_csv/imppat_ids.csv.
+   - Filter rows to select only those where ADMET_Classification == 1.
+   - Prepare a list of IMPPAT phytochemical identifiers for processing.
+
+2. Data Extraction
+   - For each selected identifier:
+     - Construct the URL: https://cb.imsc.res.in/imppat/phytochemical-detailedpage/{ID}
+     - Fetch the webpage, ensuring a delay of 0.5 seconds between requests to respect rate limits.
+     - Parse the HTML to extract:
+       - Molecule name (located after <strong>Phytochemical name:</strong>)
+       - SMILES string (located after <strong>SMILES:</strong><br /><text>...</text>)
+     - If extraction fails for any reason, log the error and continue to the next identifier.
+
+3. Output Generation
+   - Create a new CSV file in Output_csv (e.g., imppat_ids_with_data.csv).
+   - Copy all columns from the input CSV.
+   - Add two new columns: Molecule Name and SMILES.
+   - Write the extracted data for each processed identifier.
+
+4. Logging
+   - Write logs to a single file in the logs directory (e.g., scrape.log).
+   - Log errors, progress updates, and a summary of the extraction process.
+
+5. Script Details
+   - Implement as a simple Python script (no command-line interface required).
+   - Use only standard Python libraries (e.g., requests, csv, time, re).
+   - Structure the script modularly to allow easy extension for future data fields.
+
+6. Platform and Encoding
+   - Target Windows environment.
+   - Use UTF-8 encoding for all CSV output files.
+
+Summary:
+This project will automate the extraction of molecule names and SMILES strings from the IMPPAT website for selected phytochemical identifiers. The process will be robust, modular, and easily extendable for future requirements.

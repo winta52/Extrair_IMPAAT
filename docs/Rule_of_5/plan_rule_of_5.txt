@@ -1,0 +1,53 @@
+IMPPAT Rule of 5 Extraction Script Plan
+=======================================
+
+1. Objective
+------------
+Extract the Lipinski’s rule of 5 pass/fail result for selected molecules from the IMPPAT website and add this information to a new column in a CSV file.
+
+2. Data Source
+--------------
+- Input file: Output_csv/imppat_ids_with_data.csv
+- Process only rows where ADMET_Classification == 1.
+- For each selected molecule, use its ID to construct the URL:
+  https://cb.imsc.res.in/imppat/druglikeproperties/{ID}
+
+3. Extraction Details
+---------------------
+- For each molecule page, locate the table row:
+  <tr><td> Lipinski’s rule of 5 </td><td> ... </td><td> Passed/Failed </td></tr>
+- Extract the value in the third <td> ("Passed" or "Failed").
+- Convert to binary: "Passed" → 1, "Failed" → 0.
+
+4. Output
+---------
+- Output file: Output_csv/imppat_ids_with_data_rule_of_5.csv
+- Structure: Copy of input CSV, with a new column (Lipinski_Rule_of_5_Pass) containing 1 or 0 for each processed molecule.
+
+5. Logging
+----------
+- Log file: logs/scrape.log
+- Log moderate detail: start/end, each processed ID, success/failure, errors.
+
+6. Rate Limiting
+----------------
+- Wait at least 2 seconds (0.5 requests/sec) between requests.
+
+7. Technology
+-------------
+- Python 3.x
+- Libraries: requests, BeautifulSoup, pandas, time, logging
+
+8. Extensibility
+----------------
+- Script should be modular to allow easy addition of new rules or extraction logic in the future.
+
+9. Error Handling
+-----------------
+- On error (network, parsing, etc.), log the error and skip the molecule.
+
+10. Other Notes
+---------------
+- No calculation of rule of 5; only extract the displayed result.
+- No summary report or test mode required.
+- Manual execution; no automation or CLI configuration needed.

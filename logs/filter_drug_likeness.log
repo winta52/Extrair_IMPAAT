@@ -1,0 +1,47 @@
+2025-09-09 16:24:19 | INFO | Drug-likeness filtering script started | input=swiss_adme_info/swissadme_unified.csv | output_dir=Output_csv | max_violations=2 | log_file=filter_drug_likeness.log 
+2025-09-09 16:24:19 | INFO | Step 1: Validating input file 
+2025-09-09 16:24:19 | INFO | Input file validation successful 
+2025-09-09 16:24:19 | INFO | Step 2: Reading input data 
+2025-09-09 16:24:19 | INFO | Successfully loaded input data | rows=73 | columns=49 
+2025-09-09 16:24:19 | INFO | Step 3: Filtering molecules based on drug-likeness rules 
+2025-09-09 16:24:19 | INFO | Starting molecule filtering process | max_violations_allowed=2 
+2025-09-09 16:24:20 | INFO | Molecule filtered out due to excessive violations | row=22 | molecule=Methyl palmitate | violations=4 | rules=Lipinski #violations, Ghose #violations, Veber #violations, Muegge #violations 
+2025-09-09 16:24:20 | INFO | Molecule filtered out due to excessive violations | row=31 | molecule=Palmitic acid | violations=3 | rules=Lipinski #violations, Veber #violations, Muegge #violations 
+2025-09-09 16:24:20 | INFO | Molecule filtered out due to excessive violations | row=51 | molecule=2-Hexyl-1-decanol | violations=3 | rules=Lipinski #violations, Veber #violations, Muegge #violations 
+2025-09-09 16:24:20 | INFO | Molecule filtered out due to excessive violations | row=54 | molecule=Linolenic acid | violations=4 | rules=Lipinski #violations, Ghose #violations, Veber #violations, Muegge #violations 
+2025-09-09 16:24:20 | INFO | Molecule filtering completed | total=73 | retained=69 | filtered_out=4 | missing_data=0 
+2025-09-09 16:24:20 | INFO | Molecules with 0 violations: 2 (RETAINED) 
+2025-09-09 16:24:20 | INFO | Molecules with 1 violations: 19 (RETAINED) 
+2025-09-09 16:24:20 | INFO | Molecules with 2 violations: 48 (RETAINED) 
+2025-09-09 16:24:20 | INFO | Molecules with 3 violations: 2 (FILTERED OUT) 
+2025-09-09 16:24:20 | INFO | Molecules with 4 violations: 2 (FILTERED OUT) 
+2025-09-09 16:24:20 | INFO | Step 4: Writing filtered results to output file 
+2025-09-09 16:24:20 | INFO | Output file written successfully | path=C:/Dev/Faculdade/Extrair_IMPAAT/Output_csv/swissadme_druglike_filtered.csv | rows=69 
+2025-09-09 16:24:20 | INFO | Step 5: Generating summary report 
+2025-09-09 16:24:20 | INFO | DRUG-LIKENESS FILTERING SUMMARY REPORT 
+2025-09-09 16:24:20 | INFO | Processing Date: 2025-09-09 16:24:20 
+2025-09-09 16:24:20 | INFO | Input File: swiss_adme_info/swissadme_unified.csv 
+2025-09-09 16:24:20 | INFO | Output File: swissadme_druglike_filtered.csv 
+2025-09-09 16:24:20 | INFO | Filtering Criterion: Molecules with > 2 rule violations excluded 
+2025-09-09 16:24:20 | INFO | FILTERING RESULTS: 
+2025-09-09 16:24:20 | INFO |   Total molecules processed: 73 
+2025-09-09 16:24:20 | INFO |   Molecules retained (≤2 violations): 69 
+2025-09-09 16:24:20 | INFO |   Molecules filtered out (>2 violations): 4 
+2025-09-09 16:24:20 | INFO |   Molecules with missing data: 0 
+2025-09-09 16:24:20 | INFO | Retention rate: 94.5% 
+2025-09-09 16:24:20 | INFO | VIOLATION DISTRIBUTION: 
+2025-09-09 16:24:20 | INFO |   0 violations: 2 molecules (2.7%) - RETAINED 
+2025-09-09 16:24:20 | INFO |   1 violations: 19 molecules (26.0%) - RETAINED 
+2025-09-09 16:24:20 | INFO |   2 violations: 48 molecules (65.8%) - RETAINED 
+2025-09-09 16:24:20 | INFO |   3 violations: 2 molecules (2.7%) - FILTERED OUT 
+2025-09-09 16:24:20 | INFO |   4 violations: 2 molecules (2.7%) - FILTERED OUT 
+2025-09-09 16:24:20 | INFO | INDIVIDUAL RULE VIOLATION COUNTS: 
+2025-09-09 16:24:20 | INFO |   Lipinski violations: 4 molecules 
+2025-09-09 16:24:20 | INFO |   Ghose violations: 49 molecules 
+2025-09-09 16:24:20 | INFO |   Veber violations: 5 molecules 
+2025-09-09 16:24:20 | INFO |   Egan violations: 0 molecules 
+2025-09-09 16:24:20 | INFO |   Muegge violations: 71 molecules 
+2025-09-09 16:24:20 | INFO | FILTERING LOGIC: Molecules violating >2 rules were excluded from output. 
+2025-09-09 16:24:20 | INFO | RETAINED: Molecules with 0-2 rule violations. 
+2025-09-09 16:24:20 | INFO | Summary report saved | path=C:/Dev/Faculdade/Extrair_IMPAAT/Output_csv/filtering_summary.txt 
+2025-09-09 16:24:20 | INFO | Drug-likeness filtering completed successfully | execution_time=0.22s | output_file=swissadme_druglike_filtered.csv 

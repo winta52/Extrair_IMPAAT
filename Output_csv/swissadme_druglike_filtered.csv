@@ -1,0 +1,70 @@
+"Molecule","Canonical SMILES","Bioavailability Score","Lipinski #violations","Ghose #violations","Veber #violations","Egan #violations","Muegge #violations"
+"Myristic acid","CCCCCCCCCCCCCC(=O)O",0.85,0,0,1,0,1
+"Octanal","CCCCCCCC=O",0.55,0,1,0,0,2
+"Geranylacetone","CC(=CCCC(=O)C)CCC=C(C)C",0.55,0,0,0,0,2
+"Benzyl Alcohol","OCc1ccccc1",0.55,0,3,0,0,2
+"Methyl salicylate","COC(=O)c1ccccc1O",0.55,0,3,0,0,1
+"(2S,4R)-p-Mentha-1(7),8-dien-2-ol","CC(=C)C1CCC(=C)C(C1)O",0.55,0,1,0,0,2
+"cis-3-Hexenal","CCC=CCC=O",0.55,0,3,0,0,2
+"2-Decenal","CCCCCCC/C=C/C=O",0.55,0,1,0,0,2
+"Catechol","Oc1ccccc1O",0.55,0,3,0,0,1
+"2-Heptanone","CCCCCC(=O)C",0.55,0,2,0,0,2
+"Geranic acid","CC(=CCC/C(=C/C(=O)O)/C)C",0.85,0,0,0,0,1
+"2,2,6-Trimethylcyclohexanone","CC1CCCC(C1=O)(C)C",0.55,0,1,0,0,2
+"2-Undecenal","CCCCCCCC/C=C/C=O",0.55,0,0,0,0,2
+"2-Ethylhexanol","CCCCC(CO)CC",0.55,0,1,0,0,2
+"Angelic acid","C/C(=C/C)/C(=O)O",0.85,0,3,0,0,1
+"Tiglic acid","CC(=CC)C(=O)O",0.85,0,3,0,0,1
+"2-Phenylethanol","OCCc1ccccc1",0.55,0,3,0,0,2
+"Safranal","O=CC1=C(C)C=CCC1(C)C",0.55,0,1,0,0,2
+"beta-Ionone","CC(=O)/C=C/C1=C(C)CCCC1(C)C",0.55,0,0,0,0,2
+"1-Decanol","CCCCCCCCCCO",0.55,0,1,0,0,2
+"Decanal","CCCCCCCCCC=O",0.55,0,1,0,0,2
+"2-Methylpyrazine","Cc1cnccn1",0.55,0,3,0,0,1
+"Furfural","O=Cc1ccco1",0.55,0,3,0,0,1
+"Undecanal","CCCCCCCCCCC=O",0.55,0,0,0,0,2
+"1-Dodecanol","CCCCCCCCCCCCO",0.55,0,0,0,0,3
+"1-Hexanol","CCCCCCO",0.55,0,2,0,0,2
+"Heptanal","CCCCCCC=O",0.55,0,2,0,0,2
+"Dodecanal","CCCCCCCCCCCC=O",0.55,0,0,0,0,2
+"Nonan-1-ol","CCCCCCCCCO",0.55,0,1,0,0,2
+"6-Methyl-5-hepten-2-one","CC(=O)CCC=C(C)C",0.55,0,1,0,0,2
+"Hexanoic acid","CCCCCC(=O)O",0.85,0,2,0,0,1
+"Nicotinic acid","OC(=O)c1cccnc1",0.85,0,3,0,0,1
+"Phenylacetaldehyde","O=CCc1ccccc1",0.55,0,3,0,0,2
+"1-Octanol","CCCCCCCCO",0.55,0,1,0,0,2
+"1-Heptanol","CCCCCCCO",0.55,0,2,0,0,2
+"beta-Cyclocitral","O=CC1=C(C)CCCC1(C)C",0.55,0,1,0,0,2
+"Benzaldehyde","O=Cc1ccccc1",0.55,0,3,0,0,2
+"Methyl 1-methoxy-1H-indole-3-carboxylate","COC(=O)c1cn(c2c1cccc2)OC",0.55,0,0,0,0,0
+"4-Carvomenthenol","CC1=CCC(CC1)(O)C(C)C",0.55,0,1,0,0,2
+"3-Hexenoic acid","CC/C=C/CC(=O)O",0.85,0,3,0,0,1
+"Scopoletin","COc1cc2ccc(=O)oc2cc1O",0.55,0,0,0,0,1
+"Cinnamic acid","OC(=O)/C=C/c1ccccc1",0.85,0,2,0,0,1
+"4-Hydroxycinnamic acid","OC(=O)/C=C/c1ccc(cc1)O",0.85,0,0,0,0,1
+"Linalool","C=CC(CCC=C(C)C)(O)C",0.55,0,1,0,0,2
+"Diphenyl ether","c1ccc(cc1)Oc1ccccc1",0.55,0,0,0,0,2
+"Valeric acid","CCCCC(=O)O",0.85,0,3,0,0,1
+"Nonanoic acid","CCCCCCCCC(=O)O",0.85,0,1,0,0,1
+"alpha-Terpineol","CC1=CCC(CC1)C(O)(C)C",0.55,0,1,0,0,2
+"Dihydro-beta-ionol","CC(CCC1=C(C)CCCC1(C)C)O",0.55,0,0,0,0,2
+"Nerol","OC/C=C(\CCC=C(C)C)/C",0.55,0,1,0,0,2
+"2-Furanmethanol, 5-ethenyltetrahydro-alpha,alpha,5-trimethyl-, cis-","C=C[C@@]1(C)CC[C@H](O1)C(O)(C)C",0.55,0,0,0,0,1
+"1-Isopropyl-4,7-dimethyl-1,3,4,5,6,8a-hexahydro-4a(2H)-naphthalenol","CC1=CC2C(CC1)(O)C(C)CCC2C(C)C",0.55,0,0,0,0,1
+"Cedrelanol","CC1=C[C@@H]2[C@@H](CC1)[C@@](C)(O)CC[C@H]2C(C)C",0.55,0,0,0,0,1
+"Geraniol","OC/C=C(/CCC=C(C)C)\C",0.55,0,1,0,0,2
+"trans-Linalool oxide","C=C[C@]1(C)CC[C@H](O1)C(O)(C)C",0.55,0,0,0,0,1
+"Nerolidol","C=CC(CC/C=C(/CCC=C(C)C)\C)(O)C",0.55,0,0,0,0,1
+"2,5-Octanedione","CCCC(=O)CCC(=O)C",0.55,0,1,0,0,1
+"2-Methyloctan-1-ol","CCCCCCC(CO)C",0.55,0,1,0,0,2
+"Diisopentyl ether","CC(CCOCCC(C)C)C",0.55,0,1,0,0,2
+"3-Methyl-4-penten-1-ol acetate","C=CC(CCOC(=O)C)C",0.55,0,1,0,0,1
+"3-Ethylcyclopentanone","CCC1CCC(=O)C1",0.55,0,2,0,0,2
+"3,5-Dimethyl-2-cyclohexen-1-one","CC1CC(=CC(=O)C1)C",0.55,0,2,0,0,2
+"4-Hexen-2-one","C/C=C/CC(=O)C",0.55,0,3,0,0,2
+"4-(2,4,4-Trimethyl-cyclohexa-1,5-dienyl)-but-3-en-2-one","CC(=O)/C=C/C1=C(C)CC(C=C1)(C)C",0.55,0,0,0,0,2
+"Hexanoic acid, 4-hexen-1-yl ester","CCCCCC(=O)OCCC/C=C/C",0.55,0,0,0,0,1
+"Propanoic acid, 2-methyl-, 3-hydroxy-2,4,4-trimethylpentyl ester","CC(C(C(C)(C)C)O)COC(=O)C(C)C",0.55,0,0,0,0,0
+"3,3-Dimethylhexanal","CCCC(CC=O)(C)C",0.55,0,1,0,0,2
+"1-Ethyl-1H-pyrrole-2-carbaldehyde","O=Cc1cccn1CC",0.55,0,3,0,0,1
+"1-Cyclohexen-1-ol, 2,6-dimethyl-, acetate","CC(=O)OC1=C(C)CCCC1C",0.55,0,0,0,0,1

@@ -1,0 +1,34 @@
+=============================================================================
+DRUG-LIKENESS FILTERING SUMMARY REPORT
+=============================================================================
+
+Processing Date: 2025-09-09 16:24:20
+Input File: swiss_adme_info/swissadme_unified.csv
+Output File: swissadme_druglike_filtered.csv
+Filtering Criterion: Molecules with > 2 rule violations excluded
+
+FILTERING RESULTS:
+  Total molecules processed: 73
+  Molecules retained (≤2 violations): 69
+  Molecules filtered out (>2 violations): 4
+  Molecules with missing data: 0
+
+Retention rate: 94.5%
+
+VIOLATION DISTRIBUTION:
+  0 violations: 2 molecules (2.7%) - RETAINED
+  1 violations: 19 molecules (26.0%) - RETAINED
+  2 violations: 48 molecules (65.8%) - RETAINED
+  3 violations: 2 molecules (2.7%) - FILTERED OUT
+  4 violations: 2 molecules (2.7%) - FILTERED OUT
+
+INDIVIDUAL RULE VIOLATION COUNTS:
+  Lipinski violations: 4 molecules
+  Ghose violations: 49 molecules
+  Veber violations: 5 molecules
+  Egan violations: 0 molecules
+  Muegge violations: 71 molecules
+
+FILTERING LOGIC: Molecules violating >2 rules were excluded from output.
+RETAINED: Molecules with 0-2 rule violations.
+=============================================================================

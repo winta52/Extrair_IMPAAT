@@ -1,0 +1,87 @@
+2025-09-09 10:07:14 | INFO | Script started | input_dir=swiss_adme_info | output_file=swissadme_unified.csv | log_file=unify_swissadme.log 
+2025-09-09 10:07:14 | INFO | Found 14 input files 
+2025-09-09 10:07:14 | INFO | Processing file 1 of 14: 1-5 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 1-5 swissadme.csv | rows=5 | total_rows=5 
+2025-09-09 10:07:14 | INFO | Processing file 2 of 14: 11-15 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 11-15 swissadme.csv | rows=5 | total_rows=10 
+2025-09-09 10:07:14 | INFO | Processing file 3 of 14: 16-20 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 16-20 swissadme.csv | rows=5 | total_rows=15 
+2025-09-09 10:07:14 | INFO | Processing file 4 of 14: 21-25 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 21-25 swissadme.csv | rows=5 | total_rows=20 
+2025-09-09 10:07:14 | INFO | Processing file 5 of 14: 26-30 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 26-30 swissadme.csv | rows=5 | total_rows=25 
+2025-09-09 10:07:14 | INFO | Processing file 6 of 14: 31-35 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 31-35 swissadme.csv | rows=5 | total_rows=30 
+2025-09-09 10:07:14 | INFO | Processing file 7 of 14: 36-40 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 36-40 swissadme.csv | rows=5 | total_rows=35 
+2025-09-09 10:07:14 | INFO | Processing file 8 of 14: 41-45 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 41-45 swissadme.csv | rows=5 | total_rows=40 
+2025-09-09 10:07:14 | INFO | Processing file 9 of 14: 46-50 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 46-50 swissadme.csv | rows=5 | total_rows=45 
+2025-09-09 10:07:14 | INFO | Processing file 10 of 14: 51-55 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 51-55 swissadme.csv | rows=5 | total_rows=50 
+2025-09-09 10:07:14 | INFO | Processing file 11 of 14: 56-60 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 56-60 swissadme.csv | rows=5 | total_rows=55 
+2025-09-09 10:07:14 | INFO | Processing file 12 of 14: 6-10 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 6-10 swissadme.csv | rows=5 | total_rows=60 
+2025-09-09 10:07:14 | INFO | Processing file 13 of 14: 61-65 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 61-65 swissadme.csv | rows=5 | total_rows=65 
+2025-09-09 10:07:14 | INFO | Processing file 14 of 14: 66-68 swissadme.csv 
+2025-09-09 10:07:14 | INFO | Merged file: 66-68 swissadme.csv | rows=3 | total_rows=68 
+2025-09-09 10:07:14 | INFO | Writing unified CSV file 
+2025-09-09 10:07:14 | INFO | Output written successfully | file=swissadme_unified.csv | rows=68 
+2025-09-09 10:07:14 | INFO | Script finished | files_merged=14 | total_rows=68 | execution_time=0.19s 
+2025-09-09 10:37:58 | INFO | Script started | input_dir=swiss_adme_info | output_file=swissadme_unified.csv | log_file=unify_swissadme.log 
+2025-09-09 10:37:58 | INFO | Found 14 input files 
+2025-09-09 10:37:58 | INFO | Processing file 1 of 14: 1-5 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 1-5 swissadme.csv | rows=5 | total_rows=5 
+2025-09-09 10:37:58 | INFO | Processing file 2 of 14: 6-10 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 6-10 swissadme.csv | rows=5 | total_rows=10 
+2025-09-09 10:37:58 | INFO | Processing file 3 of 14: 11-15 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 11-15 swissadme.csv | rows=5 | total_rows=15 
+2025-09-09 10:37:58 | INFO | Processing file 4 of 14: 16-20 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 16-20 swissadme.csv | rows=5 | total_rows=20 
+2025-09-09 10:37:58 | INFO | Processing file 5 of 14: 21-25 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 21-25 swissadme.csv | rows=5 | total_rows=25 
+2025-09-09 10:37:58 | INFO | Processing file 6 of 14: 26-30 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 26-30 swissadme.csv | rows=5 | total_rows=30 
+2025-09-09 10:37:58 | INFO | Processing file 7 of 14: 31-35 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 31-35 swissadme.csv | rows=5 | total_rows=35 
+2025-09-09 10:37:58 | INFO | Processing file 8 of 14: 36-40 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 36-40 swissadme.csv | rows=5 | total_rows=40 
+2025-09-09 10:37:58 | INFO | Processing file 9 of 14: 41-45 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 41-45 swissadme.csv | rows=5 | total_rows=45 
+2025-09-09 10:37:58 | INFO | Processing file 10 of 14: 46-50 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 46-50 swissadme.csv | rows=5 | total_rows=50 
+2025-09-09 10:37:58 | INFO | Processing file 11 of 14: 51-55 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 51-55 swissadme.csv | rows=5 | total_rows=55 
+2025-09-09 10:37:58 | INFO | Processing file 12 of 14: 56-60 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 56-60 swissadme.csv | rows=5 | total_rows=60 
+2025-09-09 10:37:58 | INFO | Processing file 13 of 14: 61-65 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 61-65 swissadme.csv | rows=5 | total_rows=65 
+2025-09-09 10:37:58 | INFO | Processing file 14 of 14: 66-68 swissadme.csv 
+2025-09-09 10:37:58 | INFO | Merged file: 66-68 swissadme.csv | rows=3 | total_rows=68 
+2025-09-09 10:37:58 | INFO | Writing unified CSV file 
+2025-09-09 10:37:58 | INFO | Output written successfully | file=swissadme_unified.csv | rows=68 
+2025-09-09 10:37:58 | INFO | Script finished | files_merged=14 | total_rows=68 | execution_time=0.13s 
+2025-09-09 15:08:18 | INFO | Script started | input_dir=swiss_adme_info | output_file=swissadme_unified.csv | log_file=unify_swissadme.log 
+2025-09-09 15:08:18 | INFO | Found 8 input files 
+2025-09-09 15:08:18 | INFO | Processing file 1 of 8: 1-10swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 1-10swissadme.csv | rows=10 | total_rows=10 
+2025-09-09 15:08:18 | INFO | Processing file 2 of 8: 11-20swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 11-20swissadme.csv | rows=10 | total_rows=20 
+2025-09-09 15:08:18 | INFO | Processing file 3 of 8: 21-30swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 21-30swissadme.csv | rows=10 | total_rows=30 
+2025-09-09 15:08:18 | INFO | Processing file 4 of 8: 31-40swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 31-40swissadme.csv | rows=10 | total_rows=40 
+2025-09-09 15:08:18 | INFO | Processing file 5 of 8: 41-50swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 41-50swissadme.csv | rows=10 | total_rows=50 
+2025-09-09 15:08:18 | INFO | Processing file 6 of 8: 51-60swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 51-60swissadme.csv | rows=10 | total_rows=60 
+2025-09-09 15:08:18 | INFO | Processing file 7 of 8: 61-70swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 61-70swissadme.csv | rows=10 | total_rows=70 
+2025-09-09 15:08:18 | INFO | Processing file 8 of 8: 71-72-73swissadme.csv 
+2025-09-09 15:08:18 | INFO | Merged file: 71-72-73swissadme.csv | rows=3 | total_rows=73 
+2025-09-09 15:08:18 | INFO | Writing unified CSV file 
+2025-09-09 15:08:18 | INFO | Output written successfully | file=swissadme_unified.csv | rows=73 
+2025-09-09 15:08:18 | INFO | Script finished | files_merged=8 | total_rows=73 | execution_time=0.14s 
